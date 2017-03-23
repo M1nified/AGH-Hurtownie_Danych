@@ -26,7 +26,7 @@
           <SSIS:Property SSIS:Name="CreatorComputerName">AERO</SSIS:Property>
           <SSIS:Property SSIS:Name="Description">
           </SSIS:Property>
-          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAArjODEAmwXE6q1QS3m3IWnQAAAAACAAAAAAAQZgAAAAEAACAAAAB2WGsBFxbSlzCvNSrHvkplv2PGWpsSN2Z4V/y3KjLCbAAAAAAOgAAAAAIAACAAAABZzXTzkXV4o6zLc4pN+NhLPST0y0SmirKlwB21UurSt5AAAACdRtGXVCHRARKhoTnWeZp0ulu75fKEu7ZzXmVsidMeH/KFD07jT2XCQNwo71tp49PLLfNvaGcdThPmwu/9unCP8SpbNq9ZvsCzGA67mmVO7n/6++VZYuq74v4eTJs8tLXW8HptcqPGXrReewKekpH5b9c508HHRN9x2B/tjgjMe4jEarzIDaGtSKd+wlXPQK1AAAAA5LiJWDbcin2w8eGixqbHyD3eTYsHCCCJKaIGZIyGyG2jjH3BObNQYfHPt4Ty9IsUrRY6HzysLJ439QUnCoQpgw==</SSIS:Property>
+          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAArjODEAmwXE6q1QS3m3IWnQAAAAACAAAAAAAQZgAAAAEAACAAAADkaoEmEAuDpfyAW9lta6JD90Ou7aFlFogAwnwLenPY+AAAAAAOgAAAAAIAACAAAACxfjMxS3XRCFAOk7d9ThlMC5dGDE0LLmO9OsOsPStI+ZAAAABufyR0W+0iwlBWcymAc/0DimVhNd7XxTSqKrWAzMMfEz5lqx0uBGKSP7YGhr7deEGwZZGy6ufXGP21RMHCCQp0o9mWlf6gVKmWw1Oh8ZeJCzLEirZ0H7MrrNm3eXaxA2z73yIjPyDz59hpcFDM5NOCDHPBcw2goOh7hWmez9v9ixQxSPSQmWzMBkDcKP7PIEdAAAAAvgPAhAL3eODdondsH3CP5H/VsgwcYBhjFZ7PSU5emLkKORaNFRsKRkzwWtALS2GtmhLd6CMMqYSnyDxkJo2hWg==</SSIS:Property>
           <SSIS:Property SSIS:Name="FormatVersion">1</SSIS:Property>
         </SSIS:Properties>
         <SSIS:Packages>
@@ -227,7 +227,7 @@
                 <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
                 <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
                 <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
-                <SSIS:Property SSIS:Name="Value">Provider=Microsoft.Jet.OLEDB.4.0;Data Source=D:\AGH - EAIIIB - INFORMATYKA\AGH-Hurtownie_Danych\Lab_1\Sample - Superstore Sales (Excel).xls;Extended Properties="Excel 8.0;HDR=YES";</SSIS:Property>
+                <SSIS:Property SSIS:Name="Value">Provider=Microsoft.Jet.OLEDB.4.0;Data Source=D:\AGH - EAIIIB - INFORMATYKA\AGH-Hurtownie_Danych\Lab_1\Sample - Superstore Sales (Excel).xls;Extended Properties="EXCEL 8.0;HDR=YES";</SSIS:Property>
                 <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
               </SSIS:Properties>
             </SSIS:Parameter>
@@ -375,10 +375,10 @@
                 <SSIS:Property SSIS:Name="Name">Lab_2</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMajor">1</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMinor">0</SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionBuild">1</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionBuild">15</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionComments">
                 </SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionGUID">{37724D36-3B34-43E9-A549-2F52F9514185}</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionGUID">{44BC0132-F67A-4A2D-851C-113BEF0F908E}</SSIS:Property>
                 <SSIS:Property SSIS:Name="PackageFormatVersion">8</SSIS:Property>
                 <SSIS:Property SSIS:Name="Description">
                 </SSIS:Property>
