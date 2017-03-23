@@ -1,0 +1,10 @@
+﻿<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="AERO_SQLEXPRESS.AGH-Hurtownie_Danych"
+  DTS:DTSID="{1082CEEB-A24F-41C8-9525-7906838C607C}"
+  DTS:CreationName="OLEDB">
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:ConnectionString="Data Source=AERO\SQLEXPRESS;Initial Catalog=AGH-Hurtownie_Danych;Provider=SQLNCLI11.1;Integrated Security=SSPI;Auto Translate=False;" />
+  </DTS:ObjectData>
+</DTS:ConnectionManager>
