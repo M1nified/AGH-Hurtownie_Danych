@@ -11,8 +11,8 @@
   DTS:LocaleID="1045"
   DTS:ObjectName="AIO"
   DTS:PackageType="5"
-  DTS:VersionBuild="1"
-  DTS:VersionGUID="{69C744C9-A4F8-4B83-8937-491E1F954058}">
+  DTS:VersionBuild="2"
+  DTS:VersionGUID="{29AF6E24-6247-4A88-B20F-3752D39379A0}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:Variables />

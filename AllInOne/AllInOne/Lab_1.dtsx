@@ -11,8 +11,8 @@
   DTS:LocaleID="1045"
   DTS:ObjectName="Lab_1"
   DTS:PackageType="5"
-  DTS:VersionBuild="22"
-  DTS:VersionGUID="{1629E644-9D57-4B98-95C9-63897A3E2BEB}">
+  DTS:VersionBuild="24"
+  DTS:VersionGUID="{4FCEBE1E-5B59-4C0E-989A-6D7489784186}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:Variables />
@@ -538,7 +538,7 @@
                 <connection
                   refId="Package\Import danych z arkusza Excel\Tabela Zamowienia.Connections[OleDbConnection]"
                   connectionManagerID="{1082CEEB-A24F-41C8-9525-7906838C607C}:external"
-                  connectionManagerRefId="Project.ConnectionManagers[AERO_SQLEXPRESS.AGH-Hurtownie_Danych]"
+                  connectionManagerRefId="Project.ConnectionManagers[SQLEXPRESS AGH-Hurtownie_Danych]"
                   description="The OLE DB runtime connection used to access the database."
                   name="OleDbConnection" />
               </connections>
@@ -1394,11 +1394,11 @@
       <GraphLayout
         Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
         <NodeLayout
-          Size="223,42"
+          Size="223.2,41.6"
           Id="Package\Import danych z arkusza Excel"
           TopLeft="228.5,244.5" />
         <NodeLayout
-          Size="257,42"
+          Size="256.8,41.6"
           Id="Package\Stworzenie tabeli zamowienia w bazie"
           TopLeft="208,103" />
         <EdgeLayout
@@ -1432,19 +1432,19 @@
       <GraphLayout
         Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
-          Size="204,42"
+          Size="204,41.6"
           Id="Package\Import danych z arkusza Excel\Tabela Zamowienia Arkusz"
           TopLeft="380,95" />
         <NodeLayout
-          Size="201,42"
+          Size="200.8,41.6"
           Id="Package\Import danych z arkusza Excel\Konwersja tekstu Unicode"
           TopLeft="389,360" />
         <NodeLayout
-          Size="155,42"
+          Size="155.2,41.6"
           Id="Package\Import danych z arkusza Excel\Conditional Split"
           TopLeft="405,237" />
         <NodeLayout
-          Size="170,42"
+          Size="169.6,41.6"
           Id="Package\Import danych z arkusza Excel\Tabela Zamowienia"
           TopLeft="425,487" />
         <EdgeLayout
