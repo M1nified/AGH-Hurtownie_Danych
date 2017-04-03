@@ -5,15 +5,60 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{159641D6-6404-4A2A-AE62-294DE0FE8301}") = "AllInOne", "AllInOne\AllInOne.dtproj", "{4120A0A3-CECE-4FF5-AB55-92B69B5B55F4}"
 EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "AGH-HurtownieDanych", "AGH-HurtownieDanych\AGH-HurtownieDanych.sqlproj", "{02D73393-7367-4098-9141-9477A206A649}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "Sales_DW", "Sales_DW\Sales_DW.sqlproj", "{0595CB47-3164-409B-B495-5F15F50CA6EC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Databases", "Databases", "{AC665CB3-931D-435F-9E19-289174A5235D}"
+EndProject
+Project("{D2ABAB84-BF74-430A-B69E-9DC6D40DDA17}") = "Sales_DW_OLAP", "Sales_DW_OLAP\Sales_DW_OLAP.dwproj", "{F6136770-F430-4B2A-BE64-02ABD48E56A8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
-		Development|Default = Development|Default
+		Debug|Any CPU = Debug|Any CPU
+		Development|Any CPU = Development|Any CPU
+		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{4120A0A3-CECE-4FF5-AB55-92B69B5B55F4}.Development|Default.ActiveCfg = Development
-		{4120A0A3-CECE-4FF5-AB55-92B69B5B55F4}.Development|Default.Build.0 = Development
+		{4120A0A3-CECE-4FF5-AB55-92B69B5B55F4}.Debug|Any CPU.ActiveCfg = Development
+		{4120A0A3-CECE-4FF5-AB55-92B69B5B55F4}.Debug|Any CPU.Build.0 = Development
+		{4120A0A3-CECE-4FF5-AB55-92B69B5B55F4}.Development|Any CPU.ActiveCfg = Development
+		{4120A0A3-CECE-4FF5-AB55-92B69B5B55F4}.Development|Any CPU.Build.0 = Development
+		{4120A0A3-CECE-4FF5-AB55-92B69B5B55F4}.Release|Any CPU.ActiveCfg = Development
+		{4120A0A3-CECE-4FF5-AB55-92B69B5B55F4}.Release|Any CPU.Build.0 = Development
+		{02D73393-7367-4098-9141-9477A206A649}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02D73393-7367-4098-9141-9477A206A649}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02D73393-7367-4098-9141-9477A206A649}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{02D73393-7367-4098-9141-9477A206A649}.Development|Any CPU.ActiveCfg = Debug|Any CPU
+		{02D73393-7367-4098-9141-9477A206A649}.Development|Any CPU.Build.0 = Debug|Any CPU
+		{02D73393-7367-4098-9141-9477A206A649}.Development|Any CPU.Deploy.0 = Debug|Any CPU
+		{02D73393-7367-4098-9141-9477A206A649}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02D73393-7367-4098-9141-9477A206A649}.Release|Any CPU.Build.0 = Release|Any CPU
+		{02D73393-7367-4098-9141-9477A206A649}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{0595CB47-3164-409B-B495-5F15F50CA6EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0595CB47-3164-409B-B495-5F15F50CA6EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0595CB47-3164-409B-B495-5F15F50CA6EC}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{0595CB47-3164-409B-B495-5F15F50CA6EC}.Development|Any CPU.ActiveCfg = Debug|Any CPU
+		{0595CB47-3164-409B-B495-5F15F50CA6EC}.Development|Any CPU.Build.0 = Debug|Any CPU
+		{0595CB47-3164-409B-B495-5F15F50CA6EC}.Development|Any CPU.Deploy.0 = Debug|Any CPU
+		{0595CB47-3164-409B-B495-5F15F50CA6EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0595CB47-3164-409B-B495-5F15F50CA6EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0595CB47-3164-409B-B495-5F15F50CA6EC}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{F6136770-F430-4B2A-BE64-02ABD48E56A8}.Debug|Any CPU.ActiveCfg = Development
+		{F6136770-F430-4B2A-BE64-02ABD48E56A8}.Debug|Any CPU.Build.0 = Development
+		{F6136770-F430-4B2A-BE64-02ABD48E56A8}.Debug|Any CPU.Deploy.0 = Development
+		{F6136770-F430-4B2A-BE64-02ABD48E56A8}.Development|Any CPU.ActiveCfg = Development
+		{F6136770-F430-4B2A-BE64-02ABD48E56A8}.Development|Any CPU.Build.0 = Development
+		{F6136770-F430-4B2A-BE64-02ABD48E56A8}.Development|Any CPU.Deploy.0 = Development
+		{F6136770-F430-4B2A-BE64-02ABD48E56A8}.Release|Any CPU.ActiveCfg = Development
+		{F6136770-F430-4B2A-BE64-02ABD48E56A8}.Release|Any CPU.Build.0 = Development
+		{F6136770-F430-4B2A-BE64-02ABD48E56A8}.Release|Any CPU.Deploy.0 = Development
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{02D73393-7367-4098-9141-9477A206A649} = {AC665CB3-931D-435F-9E19-289174A5235D}
+		{0595CB47-3164-409B-B495-5F15F50CA6EC} = {AC665CB3-931D-435F-9E19-289174A5235D}
 	EndGlobalSection
 EndGlobal

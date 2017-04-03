@@ -26,7 +26,7 @@
           <SSIS:Property SSIS:Name="CreatorComputerName">AERO</SSIS:Property>
           <SSIS:Property SSIS:Name="Description">
           </SSIS:Property>
-          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAmSFP7lSnxUGAN5zW4Ocq7AAAAAACAAAAAAAQZgAAAAEAACAAAAAYfsbx0lxpuOzvaG5T2Fs3mnW9kvzY0Wzb8YzM6zMlHAAAAAAOgAAAAAIAACAAAABBkmz9avJi6TQgTgZ1R30L5SPLi13AGrIFw1XH34+H0JAAAAB9RGuExkn8ca6J6LvdJCMFo2SFoy2H8Ww+02UhfnIdKcONfG/2dOrGzJuBtH6FTbnjPvirCPXEdrAgUoemGgGj5/tCXqOEBG2oQuws5bDQka5N5BJvm1mS5RdzvTIw0YeS3NtweGGUgbMVnmv3gM+oFdBby2oTXJyid1T7k4EovCwaBQG7l5vYKhh30P9v6E1AAAAAWzw20+YSC+L7WwJpkS0SoOv8QvyMifo4RyN1vuWCl6AImOtEb0byz7ctXEkwzupcLZmkIE1GzRRoCp1sfDWOzw==</SSIS:Property>
+          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAArjODEAmwXE6q1QS3m3IWnQAAAAACAAAAAAAQZgAAAAEAACAAAADYipPnvLMk9JdDQ805kDhqRyAh51HBrUf7j3eWfTAsRAAAAAAOgAAAAAIAACAAAABxldYy2ro+nIqr95ChFZT42PQ565/ib4iroseWahi9UJAAAAB0nIZwLCk/JjtWqAmbzhyroEZRxsrawV5vyPGG7hXiiGfaSRPanhHas6I7pr37ii0RNGCy6mDb27xEVki5s1RPOcj+pDy8sSKGJILMBbzczv6MbdYF3aiBETYigUw5nRLGyD/MwI3KV/YbTLgRq5otD6cPbgDXilBiBZR7rfx2berWXC1Pof8Abmx+7rCrpVxAAAAAmEZlUn79EmRIsyV5eXLDVZRdca/XUtzifaTf3Y6N2ePS22ijbH+tJ5dy/Y6Y6SjObE1y/iuVQZxrB35ARR/XxA==</SSIS:Property>
           <SSIS:Property SSIS:Name="FormatVersion">1</SSIS:Property>
         </SSIS:Properties>
         <SSIS:Packages>
@@ -38,6 +38,7 @@
           <SSIS:ConnectionManager SSIS:Name="Excel Connection Manager.conmgr" />
           <SSIS:ConnectionManager SSIS:Name="SQLEXPRESS.AGH-Hurtownie_Danych.conmgr" />
           <SSIS:ConnectionManager SSIS:Name="AGH-Hurtownie_Danych_Lab_2_northwind.mdb.conmgr" />
+          <SSIS:ConnectionManager SSIS:Name="LOCALHOST_SQLEXPRESS.Sales_DW.conmgr" />
         </SSIS:ConnectionManagers>
         <SSIS:DeploymentInfo>
           <SSIS:ProjectConnectionParameters>
@@ -52,7 +53,7 @@
                 <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
                 <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
                 <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
-                <SSIS:Property SSIS:Name="Value">Provider=Microsoft.Jet.OLEDB.4.0;Data Source=D:\EAIiIB\AGH-Hurtownie_Danych\Lab_1\Sample - Superstore Sales (Excel).xls;Extended Properties="EXCEL 8.0;HDR=YES";</SSIS:Property>
+                <SSIS:Property SSIS:Name="Value">Provider=Microsoft.Jet.OLEDB.4.0;Data Source=D:\AGH-Hurtownie_Danych\Lab_1\Sample - Superstore Sales (Excel).xls;Extended Properties="EXCEL 8.0;HDR=YES";</SSIS:Property>
                 <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
               </SSIS:Properties>
             </SSIS:Parameter>
@@ -67,7 +68,7 @@
                 <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
                 <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
                 <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
-                <SSIS:Property SSIS:Name="Value">D:\EAIiIB\AGH-Hurtownie_Danych\Lab_1\Sample - Superstore Sales (Excel).xls</SSIS:Property>
+                <SSIS:Property SSIS:Name="Value">D:\AGH-Hurtownie_Danych\Lab_1\Sample - Superstore Sales (Excel).xls</SSIS:Property>
                 <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
               </SSIS:Properties>
             </SSIS:Parameter>
@@ -140,7 +141,7 @@
                 <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
                 <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
                 <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
-                <SSIS:Property SSIS:Name="Value">D:\EAIiIB\AGH-Hurtownie_Danych\Lab_1\Sample - Superstore Sales (Excel).xls</SSIS:Property>
+                <SSIS:Property SSIS:Name="Value">D:\AGH-Hurtownie_Danych\Lab_1\Sample - Superstore Sales (Excel).xls</SSIS:Property>
                 <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
               </SSIS:Properties>
             </SSIS:Parameter>
@@ -257,7 +258,7 @@
                 <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
                 <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
                 <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
-                <SSIS:Property SSIS:Name="Value">Data Source=D:\EAIiIB\AGH-Hurtownie_Danych\Lab_2\northwind.mdb;Provider=Microsoft.ACE.OLEDB.12.0;Persist Security Info=False;</SSIS:Property>
+                <SSIS:Property SSIS:Name="Value">Data Source=D:\AGH-Hurtownie_Danych\Lab_2\northwind.mdb;Provider=Microsoft.ACE.OLEDB.12.0;Persist Security Info=False;</SSIS:Property>
                 <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
               </SSIS:Properties>
             </SSIS:Parameter>
@@ -315,11 +316,99 @@
                 <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
                 <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
                 <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
-                <SSIS:Property SSIS:Name="Value">D:\EAIiIB\AGH-Hurtownie_Danych\Lab_2\northwind.mdb</SSIS:Property>
+                <SSIS:Property SSIS:Name="Value">D:\AGH-Hurtownie_Danych\Lab_2\northwind.mdb</SSIS:Property>
                 <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
               </SSIS:Properties>
             </SSIS:Parameter>
             <SSIS:Parameter SSIS:Name="CM.AGH-Hurtownie_Danych_Lab_2_northwind mdb.UserName">
+              <SSIS:Properties>
+                <SSIS:Property SSIS:Name="ID">
+                </SSIS:Property>
+                <SSIS:Property SSIS:Name="CreationName">
+                </SSIS:Property>
+                <SSIS:Property SSIS:Name="Description">
+                </SSIS:Property>
+                <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
+                <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
+                <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
+                <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
+              </SSIS:Properties>
+            </SSIS:Parameter>
+            <SSIS:Parameter SSIS:Name="CM.LOCALHOST_SQLEXPRESS.Sales_DW.ConnectionString">
+              <SSIS:Properties>
+                <SSIS:Property SSIS:Name="ID">
+                </SSIS:Property>
+                <SSIS:Property SSIS:Name="CreationName">
+                </SSIS:Property>
+                <SSIS:Property SSIS:Name="Description">
+                </SSIS:Property>
+                <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
+                <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
+                <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
+                <SSIS:Property SSIS:Name="Value">Data Source=LOCALHOST\SQLEXPRESS;Initial Catalog=Sales_DW;Provider=SQLNCLI11.1;Integrated Security=SSPI;Auto Translate=False;</SSIS:Property>
+                <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
+              </SSIS:Properties>
+            </SSIS:Parameter>
+            <SSIS:Parameter SSIS:Name="CM.LOCALHOST_SQLEXPRESS.Sales_DW.InitialCatalog">
+              <SSIS:Properties>
+                <SSIS:Property SSIS:Name="ID">
+                </SSIS:Property>
+                <SSIS:Property SSIS:Name="CreationName">
+                </SSIS:Property>
+                <SSIS:Property SSIS:Name="Description">
+                </SSIS:Property>
+                <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
+                <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
+                <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
+                <SSIS:Property SSIS:Name="Value">Sales_DW</SSIS:Property>
+                <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
+              </SSIS:Properties>
+            </SSIS:Parameter>
+            <SSIS:Parameter SSIS:Name="CM.LOCALHOST_SQLEXPRESS.Sales_DW.Password">
+              <SSIS:Properties>
+                <SSIS:Property SSIS:Name="ID">
+                </SSIS:Property>
+                <SSIS:Property SSIS:Name="CreationName">
+                </SSIS:Property>
+                <SSIS:Property SSIS:Name="Description">
+                </SSIS:Property>
+                <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
+                <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
+                <SSIS:Property SSIS:Name="Sensitive">1</SSIS:Property>
+                <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
+              </SSIS:Properties>
+            </SSIS:Parameter>
+            <SSIS:Parameter SSIS:Name="CM.LOCALHOST_SQLEXPRESS.Sales_DW.RetainSameConnection">
+              <SSIS:Properties>
+                <SSIS:Property SSIS:Name="ID">
+                </SSIS:Property>
+                <SSIS:Property SSIS:Name="CreationName">
+                </SSIS:Property>
+                <SSIS:Property SSIS:Name="Description">
+                </SSIS:Property>
+                <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
+                <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
+                <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
+                <SSIS:Property SSIS:Name="Value">false</SSIS:Property>
+                <SSIS:Property SSIS:Name="DataType">3</SSIS:Property>
+              </SSIS:Properties>
+            </SSIS:Parameter>
+            <SSIS:Parameter SSIS:Name="CM.LOCALHOST_SQLEXPRESS.Sales_DW.ServerName">
+              <SSIS:Properties>
+                <SSIS:Property SSIS:Name="ID">
+                </SSIS:Property>
+                <SSIS:Property SSIS:Name="CreationName">
+                </SSIS:Property>
+                <SSIS:Property SSIS:Name="Description">
+                </SSIS:Property>
+                <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
+                <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
+                <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
+                <SSIS:Property SSIS:Name="Value">LOCALHOST\SQLEXPRESS</SSIS:Property>
+                <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
+              </SSIS:Properties>
+            </SSIS:Parameter>
+            <SSIS:Parameter SSIS:Name="CM.LOCALHOST_SQLEXPRESS.Sales_DW.UserName">
               <SSIS:Properties>
                 <SSIS:Property SSIS:Name="ID">
                 </SSIS:Property>
