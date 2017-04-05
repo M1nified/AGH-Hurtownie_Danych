@@ -7,7 +7,7 @@
 * SQL Server Data Tools [Download](https://msdn.microsoft.com/en-us/mt186501.aspx)
 * SQL Server Data Tools - Business Intelligence [Download](https://www.microsoft.com/en-us/download/details.aspx?id=42313)
 
-# SSIS - Instalacja
+# SQL Server Data Tools - Instalacja
 
 W czasie instalacji **ZAWSZE** wybieramy `Perform a new installation of SQL Server ...`
 
