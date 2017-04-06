@@ -6,6 +6,18 @@
     <Name>Sales_DW_Analysis.database</Name>
     <FullPath>Sales_DW_Analysis.database</FullPath>
   </Database>
+  <Cubes>
+    <ProjectItem>
+      <Name>Sales DW.cube</Name>
+      <FullPath>Sales DW.cube</FullPath>
+      <Dependencies>
+        <ProjectItem>
+          <Name>Sales DW.partitions</Name>
+          <FullPath>Sales DW.partitions</FullPath>
+        </ProjectItem>
+      </Dependencies>
+    </ProjectItem>
+  </Cubes>
   <Dimensions>
     <ProjectItem>
       <Name>Dim Date.dim</Name>
@@ -22,6 +34,18 @@
     <ProjectItem>
       <Name>Dim Sales Person.dim</Name>
       <FullPath>Dim Sales Person.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Time.dim</Name>
+      <FullPath>Time.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Dim Customer.dim</Name>
+      <FullPath>Dim Customer.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Dim Time.dim</Name>
+      <FullPath>Dim Time.dim</FullPath>
     </ProjectItem>
   </Dimensions>
   <DataSources>
