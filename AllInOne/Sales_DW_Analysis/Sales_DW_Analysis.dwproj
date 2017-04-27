@@ -47,6 +47,22 @@
       <Name>Dim Time.dim</Name>
       <FullPath>Dim Time.dim</FullPath>
     </ProjectItem>
+    <ProjectItem>
+      <Name>Dim Date 1.dim</Name>
+      <FullPath>Dim Date 1.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Dim Product 1.dim</Name>
+      <FullPath>Dim Product 1.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Dim Sales Person 1.dim</Name>
+      <FullPath>Dim Sales Person 1.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Dim Stores 1.dim</Name>
+      <FullPath>Dim Stores 1.dim</FullPath>
+    </ProjectItem>
   </Dimensions>
   <DataSources>
     <ProjectItem>
