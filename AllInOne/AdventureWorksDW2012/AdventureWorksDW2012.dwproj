@@ -6,6 +6,28 @@
     <Name>AdventureWorksDW2012.database</Name>
     <FullPath>AdventureWorksDW2012.database</FullPath>
   </Database>
+  <Cubes>
+    <ProjectItem>
+      <Name>MSSQLDEVELOPER_AdventureWorksDW2012_Data.cube</Name>
+      <FullPath>MSSQLDEVELOPER_AdventureWorksDW2012_Data.cube</FullPath>
+      <Dependencies>
+        <ProjectItem>
+          <Name>MSSQLDEVELOPER_AdventureWorksDW2012_Data.partitions</Name>
+          <FullPath>MSSQLDEVELOPER_AdventureWorksDW2012_Data.partitions</FullPath>
+        </ProjectItem>
+      </Dependencies>
+    </ProjectItem>
+  </Cubes>
+  <Dimensions>
+    <ProjectItem>
+      <Name>Dim Employee.dim</Name>
+      <FullPath>Dim Employee.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Dim Geography.dim</Name>
+      <FullPath>Dim Geography.dim</FullPath>
+    </ProjectItem>
+  </Dimensions>
   <DataSources>
     <ProjectItem>
       <Name>MSSQLDEVELOPER_AdventureWorksDW2012_Data.ds</Name>

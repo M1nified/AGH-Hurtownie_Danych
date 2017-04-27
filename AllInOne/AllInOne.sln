@@ -15,15 +15,22 @@ Project("{D2ABAB84-BF74-430A-B69E-9DC6D40DDA17}") = "Sales_DW_Analysis", "Sales_
 EndProject
 Project("{D2ABAB84-BF74-430A-B69E-9DC6D40DDA17}") = "AdventureWorksDW2012", "AdventureWorksDW2012\AdventureWorksDW2012.dwproj", "{F758D837-2AEB-4C66-8A9E-782CC6730835}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lab_4", "Lab_4", "{4606BA0B-F604-4CC2-8739-462AB31D4216}"
+EndProject
+Project("{F14B399A-7131-4C87-9E4B-1186C45EF12D}") = "AdventureWorksDW2012_ReportServer", "AdventureWorksDW2012_ReportServer\AdventureWorksDW2012_ReportServer.rptproj", "{3AF12EC7-4EE8-468E-A680-90961C04A1DA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
+		DebugLocal|Any CPU = DebugLocal|Any CPU
 		Development|Any CPU = Development|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{4120A0A3-CECE-4FF5-AB55-92B69B5B55F4}.Debug|Any CPU.ActiveCfg = Development
 		{4120A0A3-CECE-4FF5-AB55-92B69B5B55F4}.Debug|Any CPU.Build.0 = Development
+		{4120A0A3-CECE-4FF5-AB55-92B69B5B55F4}.DebugLocal|Any CPU.ActiveCfg = Development
+		{4120A0A3-CECE-4FF5-AB55-92B69B5B55F4}.DebugLocal|Any CPU.Build.0 = Development
 		{4120A0A3-CECE-4FF5-AB55-92B69B5B55F4}.Development|Any CPU.ActiveCfg = Development
 		{4120A0A3-CECE-4FF5-AB55-92B69B5B55F4}.Development|Any CPU.Build.0 = Development
 		{4120A0A3-CECE-4FF5-AB55-92B69B5B55F4}.Release|Any CPU.ActiveCfg = Development
@@ -31,6 +38,9 @@ Global
 		{02D73393-7367-4098-9141-9477A206A649}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{02D73393-7367-4098-9141-9477A206A649}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{02D73393-7367-4098-9141-9477A206A649}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{02D73393-7367-4098-9141-9477A206A649}.DebugLocal|Any CPU.ActiveCfg = Debug|Any CPU
+		{02D73393-7367-4098-9141-9477A206A649}.DebugLocal|Any CPU.Build.0 = Debug|Any CPU
+		{02D73393-7367-4098-9141-9477A206A649}.DebugLocal|Any CPU.Deploy.0 = Debug|Any CPU
 		{02D73393-7367-4098-9141-9477A206A649}.Development|Any CPU.ActiveCfg = Debug|Any CPU
 		{02D73393-7367-4098-9141-9477A206A649}.Development|Any CPU.Build.0 = Debug|Any CPU
 		{02D73393-7367-4098-9141-9477A206A649}.Development|Any CPU.Deploy.0 = Debug|Any CPU
@@ -40,6 +50,9 @@ Global
 		{0595CB47-3164-409B-B495-5F15F50CA6EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{0595CB47-3164-409B-B495-5F15F50CA6EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0595CB47-3164-409B-B495-5F15F50CA6EC}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{0595CB47-3164-409B-B495-5F15F50CA6EC}.DebugLocal|Any CPU.ActiveCfg = Debug|Any CPU
+		{0595CB47-3164-409B-B495-5F15F50CA6EC}.DebugLocal|Any CPU.Build.0 = Debug|Any CPU
+		{0595CB47-3164-409B-B495-5F15F50CA6EC}.DebugLocal|Any CPU.Deploy.0 = Debug|Any CPU
 		{0595CB47-3164-409B-B495-5F15F50CA6EC}.Development|Any CPU.ActiveCfg = Debug|Any CPU
 		{0595CB47-3164-409B-B495-5F15F50CA6EC}.Development|Any CPU.Build.0 = Debug|Any CPU
 		{0595CB47-3164-409B-B495-5F15F50CA6EC}.Development|Any CPU.Deploy.0 = Debug|Any CPU
@@ -49,6 +62,9 @@ Global
 		{B98F30C4-7EE5-4D07-8D4D-1E9AFFCD6230}.Debug|Any CPU.ActiveCfg = Development
 		{B98F30C4-7EE5-4D07-8D4D-1E9AFFCD6230}.Debug|Any CPU.Build.0 = Development
 		{B98F30C4-7EE5-4D07-8D4D-1E9AFFCD6230}.Debug|Any CPU.Deploy.0 = Development
+		{B98F30C4-7EE5-4D07-8D4D-1E9AFFCD6230}.DebugLocal|Any CPU.ActiveCfg = Development
+		{B98F30C4-7EE5-4D07-8D4D-1E9AFFCD6230}.DebugLocal|Any CPU.Build.0 = Development
+		{B98F30C4-7EE5-4D07-8D4D-1E9AFFCD6230}.DebugLocal|Any CPU.Deploy.0 = Development
 		{B98F30C4-7EE5-4D07-8D4D-1E9AFFCD6230}.Development|Any CPU.ActiveCfg = Development
 		{B98F30C4-7EE5-4D07-8D4D-1E9AFFCD6230}.Development|Any CPU.Build.0 = Development
 		{B98F30C4-7EE5-4D07-8D4D-1E9AFFCD6230}.Development|Any CPU.Deploy.0 = Development
@@ -58,12 +74,25 @@ Global
 		{F758D837-2AEB-4C66-8A9E-782CC6730835}.Debug|Any CPU.ActiveCfg = Development
 		{F758D837-2AEB-4C66-8A9E-782CC6730835}.Debug|Any CPU.Build.0 = Development
 		{F758D837-2AEB-4C66-8A9E-782CC6730835}.Debug|Any CPU.Deploy.0 = Development
+		{F758D837-2AEB-4C66-8A9E-782CC6730835}.DebugLocal|Any CPU.ActiveCfg = Development
+		{F758D837-2AEB-4C66-8A9E-782CC6730835}.DebugLocal|Any CPU.Build.0 = Development
+		{F758D837-2AEB-4C66-8A9E-782CC6730835}.DebugLocal|Any CPU.Deploy.0 = Development
 		{F758D837-2AEB-4C66-8A9E-782CC6730835}.Development|Any CPU.ActiveCfg = Development
 		{F758D837-2AEB-4C66-8A9E-782CC6730835}.Development|Any CPU.Build.0 = Development
 		{F758D837-2AEB-4C66-8A9E-782CC6730835}.Development|Any CPU.Deploy.0 = Development
 		{F758D837-2AEB-4C66-8A9E-782CC6730835}.Release|Any CPU.ActiveCfg = Development
 		{F758D837-2AEB-4C66-8A9E-782CC6730835}.Release|Any CPU.Build.0 = Development
 		{F758D837-2AEB-4C66-8A9E-782CC6730835}.Release|Any CPU.Deploy.0 = Development
+		{3AF12EC7-4EE8-468E-A680-90961C04A1DA}.Debug|Any CPU.ActiveCfg = Debug
+		{3AF12EC7-4EE8-468E-A680-90961C04A1DA}.Debug|Any CPU.Build.0 = Debug
+		{3AF12EC7-4EE8-468E-A680-90961C04A1DA}.Debug|Any CPU.Deploy.0 = Debug
+		{3AF12EC7-4EE8-468E-A680-90961C04A1DA}.DebugLocal|Any CPU.ActiveCfg = DebugLocal
+		{3AF12EC7-4EE8-468E-A680-90961C04A1DA}.DebugLocal|Any CPU.Build.0 = DebugLocal
+		{3AF12EC7-4EE8-468E-A680-90961C04A1DA}.Development|Any CPU.ActiveCfg = DebugLocal
+		{3AF12EC7-4EE8-468E-A680-90961C04A1DA}.Development|Any CPU.Build.0 = DebugLocal
+		{3AF12EC7-4EE8-468E-A680-90961C04A1DA}.Release|Any CPU.ActiveCfg = Release
+		{3AF12EC7-4EE8-468E-A680-90961C04A1DA}.Release|Any CPU.Build.0 = Release
+		{3AF12EC7-4EE8-468E-A680-90961C04A1DA}.Release|Any CPU.Deploy.0 = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -71,5 +100,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{02D73393-7367-4098-9141-9477A206A649} = {AC665CB3-931D-435F-9E19-289174A5235D}
 		{0595CB47-3164-409B-B495-5F15F50CA6EC} = {AC665CB3-931D-435F-9E19-289174A5235D}
+		{F758D837-2AEB-4C66-8A9E-782CC6730835} = {4606BA0B-F604-4CC2-8739-462AB31D4216}
+		{3AF12EC7-4EE8-468E-A680-90961C04A1DA} = {4606BA0B-F604-4CC2-8739-462AB31D4216}
 	EndGlobalSection
 EndGlobal
