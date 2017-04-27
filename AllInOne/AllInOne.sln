@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{159641D6-6404-4A2A-AE62-294DE0FE8301}") = "AllInOne", "AllInOne\AllInOne.dtproj", "{4120A0A3-CECE-4FF5-AB55-92B69B5B55F4}"
+Project("{159641D6-6404-4A2A-AE62-294DE0FE8301}") = "BusinessInteligence", "AllInOne\BusinessInteligence.dtproj", "{4120A0A3-CECE-4FF5-AB55-92B69B5B55F4}"
 EndProject
 Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "AGH-HurtownieDanych", "AGH-HurtownieDanych\AGH-HurtownieDanych.sqlproj", "{02D73393-7367-4098-9141-9477A206A649}"
 EndProject
@@ -12,6 +12,8 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Databases", "Databases", "{AC665CB3-931D-435F-9E19-289174A5235D}"
 EndProject
 Project("{D2ABAB84-BF74-430A-B69E-9DC6D40DDA17}") = "Sales_DW_Analysis", "Sales_DW_Analysis\Sales_DW_Analysis.dwproj", "{B98F30C4-7EE5-4D07-8D4D-1E9AFFCD6230}"
+EndProject
+Project("{D2ABAB84-BF74-430A-B69E-9DC6D40DDA17}") = "AdventureWorksDW2012", "AdventureWorksDW2012\AdventureWorksDW2012.dwproj", "{F758D837-2AEB-4C66-8A9E-782CC6730835}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -53,6 +55,15 @@ Global
 		{B98F30C4-7EE5-4D07-8D4D-1E9AFFCD6230}.Release|Any CPU.ActiveCfg = Development
 		{B98F30C4-7EE5-4D07-8D4D-1E9AFFCD6230}.Release|Any CPU.Build.0 = Development
 		{B98F30C4-7EE5-4D07-8D4D-1E9AFFCD6230}.Release|Any CPU.Deploy.0 = Development
+		{F758D837-2AEB-4C66-8A9E-782CC6730835}.Debug|Any CPU.ActiveCfg = Development
+		{F758D837-2AEB-4C66-8A9E-782CC6730835}.Debug|Any CPU.Build.0 = Development
+		{F758D837-2AEB-4C66-8A9E-782CC6730835}.Debug|Any CPU.Deploy.0 = Development
+		{F758D837-2AEB-4C66-8A9E-782CC6730835}.Development|Any CPU.ActiveCfg = Development
+		{F758D837-2AEB-4C66-8A9E-782CC6730835}.Development|Any CPU.Build.0 = Development
+		{F758D837-2AEB-4C66-8A9E-782CC6730835}.Development|Any CPU.Deploy.0 = Development
+		{F758D837-2AEB-4C66-8A9E-782CC6730835}.Release|Any CPU.ActiveCfg = Development
+		{F758D837-2AEB-4C66-8A9E-782CC6730835}.Release|Any CPU.Build.0 = Development
+		{F758D837-2AEB-4C66-8A9E-782CC6730835}.Release|Any CPU.Deploy.0 = Development
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

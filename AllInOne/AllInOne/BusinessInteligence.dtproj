@@ -15,7 +15,7 @@
       <SSIS:Project SSIS:ProtectionLevel="EncryptSensitiveWithUserKey" xmlns:SSIS="www.microsoft.com/SqlServer/SSIS">
         <SSIS:Properties>
           <SSIS:Property SSIS:Name="ID">{1745b128-c498-47df-946f-27af24745b76}</SSIS:Property>
-          <SSIS:Property SSIS:Name="Name">AllInOne</SSIS:Property>
+          <SSIS:Property SSIS:Name="Name">BusinessInteligence</SSIS:Property>
           <SSIS:Property SSIS:Name="VersionMajor">1</SSIS:Property>
           <SSIS:Property SSIS:Name="VersionMinor">0</SSIS:Property>
           <SSIS:Property SSIS:Name="VersionBuild">0</SSIS:Property>
@@ -26,7 +26,7 @@
           <SSIS:Property SSIS:Name="CreatorComputerName">AERO</SSIS:Property>
           <SSIS:Property SSIS:Name="Description">
           </SSIS:Property>
-          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAArjODEAmwXE6q1QS3m3IWnQAAAAACAAAAAAAQZgAAAAEAACAAAADYipPnvLMk9JdDQ805kDhqRyAh51HBrUf7j3eWfTAsRAAAAAAOgAAAAAIAACAAAABxldYy2ro+nIqr95ChFZT42PQ565/ib4iroseWahi9UJAAAAB0nIZwLCk/JjtWqAmbzhyroEZRxsrawV5vyPGG7hXiiGfaSRPanhHas6I7pr37ii0RNGCy6mDb27xEVki5s1RPOcj+pDy8sSKGJILMBbzczv6MbdYF3aiBETYigUw5nRLGyD/MwI3KV/YbTLgRq5otD6cPbgDXilBiBZR7rfx2berWXC1Pof8Abmx+7rCrpVxAAAAAmEZlUn79EmRIsyV5eXLDVZRdca/XUtzifaTf3Y6N2ePS22ijbH+tJ5dy/Y6Y6SjObE1y/iuVQZxrB35ARR/XxA==</SSIS:Property>
+          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAArjODEAmwXE6q1QS3m3IWnQAAAAACAAAAAAAQZgAAAAEAACAAAAB8x+Z8KFBDdcEKWUBDNPF4Ucd+5QaMjBrLa8eiV5kFCgAAAAAOgAAAAAIAACAAAAAuhRBWiuQLSksuKHWuBzAO/Nf00615lttmlm/Noron+JAAAADE4AWDeei9Zi0Ym3hFNqkCN1TL8jqfziH5XpO8r+n2WHc3BKTmebiitUIls3aTHql7sxRpAAY4KgcGeu0Z331b5rFl9ORMjYNDan28AYTWV4Nx+3+cI555pHvW97pQ3Wgt1LquFsbBaoIk/NU1N7hj5nqC65f1P+FtZJ9w2j9JSmjWypKUCf802ru+WshiVrBAAAAA4nqmZy0EWonrAVg8Wg+Pgjp66TB/LRRO8VrRz/qaR2GigcR7MnzPZP3tegKqBMvvSOoldSGUNDZq4Zonfd957A==</SSIS:Property>
           <SSIS:Property SSIS:Name="FormatVersion">1</SSIS:Property>
         </SSIS:Properties>
         <SSIS:Packages>
