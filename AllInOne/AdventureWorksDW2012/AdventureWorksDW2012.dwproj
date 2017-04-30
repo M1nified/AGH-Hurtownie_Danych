@@ -17,6 +17,26 @@
         </ProjectItem>
       </Dependencies>
     </ProjectItem>
+    <ProjectItem>
+      <Name>Reseller.cube</Name>
+      <FullPath>Reseller.cube</FullPath>
+      <Dependencies>
+        <ProjectItem>
+          <Name>Reseller.partitions</Name>
+          <FullPath>Reseller.partitions</FullPath>
+        </ProjectItem>
+      </Dependencies>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Reseller2.cube</Name>
+      <FullPath>Reseller2.cube</FullPath>
+      <Dependencies>
+        <ProjectItem>
+          <Name>Reseller2.partitions</Name>
+          <FullPath>Reseller2.partitions</FullPath>
+        </ProjectItem>
+      </Dependencies>
+    </ProjectItem>
   </Cubes>
   <Dimensions>
     <ProjectItem>
@@ -26,6 +46,34 @@
     <ProjectItem>
       <Name>Dim Geography.dim</Name>
       <FullPath>Dim Geography.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Dim Product.dim</Name>
+      <FullPath>Dim Product.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Dim Date.dim</Name>
+      <FullPath>Dim Date.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Dim Reseller.dim</Name>
+      <FullPath>Dim Reseller.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Dim Promotion.dim</Name>
+      <FullPath>Dim Promotion.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Dim Currency.dim</Name>
+      <FullPath>Dim Currency.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Fact Reseller Sales.dim</Name>
+      <FullPath>Fact Reseller Sales.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Dim Date 1.dim</Name>
+      <FullPath>Dim Date 1.dim</FullPath>
     </ProjectItem>
   </Dimensions>
   <DataSources>

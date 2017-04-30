@@ -6,9 +6,8 @@
   <ConnectionString>Provider=SQLNCLI11.1;Data Source=LOCALHOST\MSSQLDEVELOPER;Integrated Security=SSPI;Initial File Name=D:\AGH-Hurtownie_Danych\Lab_4\AdventureWorksDW2012_Data.mdf</ConnectionString>
   <ConnectionStringSecurity>Unchanged</ConnectionStringSecurity>
   <ImpersonationInfo>
-    <ImpersonationMode>ImpersonateAccount</ImpersonationMode>
-    <Account>georgio.the.first@hotmail.com</Account>
-    <ImpersonationInfoSecurity>PasswordRemoved</ImpersonationInfoSecurity>
+    <ImpersonationMode>ImpersonateServiceAccount</ImpersonationMode>
+    <ImpersonationInfoSecurity>Unchanged</ImpersonationInfoSecurity>
   </ImpersonationInfo>
   <Timeout>PT0S</Timeout>
 </DataSource>
