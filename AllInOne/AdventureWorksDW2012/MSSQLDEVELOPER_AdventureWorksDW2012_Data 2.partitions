@@ -1,0 +1,145 @@
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="d4811a4d-50c9-4182-ad0c-b6a9cba41bc2" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>MSSQLDEVELOPER_AdventureWorksDW2012_Data 2</ID>
+  <MeasureGroups>
+    <MeasureGroup>
+      <ID>Dim Customer</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="7732feff-70cd-4ec7-beeb-f72e7a54e2aa">
+          <ID>Dim Customer</ID>
+          <Name>Dim Customer</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="ec3d6ea0-dcca-4f16-a6c0-f13c97b0e9b5">
+            <DataSourceViewID>MSSQLDEVELOPER_AdventureWorksDW2012_Data</DataSourceViewID>
+            <TableID>dbo_DimCustomer</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+    <MeasureGroup>
+      <ID>Dim Geography</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="a44f2644-6fde-4b3d-bcbc-bf166f86d1c2">
+          <ID>Dim Geography</ID>
+          <Name>Dim Geography</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="cbe2f8e0-bd0e-4732-8d03-7d41fbff100f">
+            <DataSourceViewID>MSSQLDEVELOPER_AdventureWorksDW2012_Data</DataSourceViewID>
+            <TableID>dbo_DimGeography</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+    <MeasureGroup>
+      <ID>Dim Product Category</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="2e2a85e2-5f2c-4159-85e7-baee5190324c">
+          <ID>Dim Product Category</ID>
+          <Name>Dim Product Category</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="56d1442d-32b1-4a6d-ae6c-5a6533856995">
+            <DataSourceViewID>MSSQLDEVELOPER_AdventureWorksDW2012_Data</DataSourceViewID>
+            <TableID>dbo_DimProductCategory</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+    <MeasureGroup>
+      <ID>Dim Product Subcategory</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="f6565e11-4756-4161-bcad-b1f1beb38115">
+          <ID>Dim Product Subcategory</ID>
+          <Name>Dim Product Subcategory</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="a7510f54-92a8-4abe-aa0e-2aca478711e2">
+            <DataSourceViewID>MSSQLDEVELOPER_AdventureWorksDW2012_Data</DataSourceViewID>
+            <TableID>dbo_DimProductSubcategory</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+    <MeasureGroup>
+      <ID>Dim Product</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="3a15823d-77d3-4d30-bbdd-7b62e05f8865">
+          <ID>Dim Product</ID>
+          <Name>Dim Product</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="21476cac-2a65-4668-8c2e-a62a2e616273">
+            <DataSourceViewID>MSSQLDEVELOPER_AdventureWorksDW2012_Data</DataSourceViewID>
+            <TableID>dbo_DimProduct</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+    <MeasureGroup>
+      <ID>Dim Date</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="053129cb-cd9f-4aba-aaec-7cda76604298">
+          <ID>Dim Date</ID>
+          <Name>Dim Date</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="d8f80996-9500-401e-aa3b-0111b10371eb">
+            <DataSourceViewID>MSSQLDEVELOPER_AdventureWorksDW2012_Data</DataSourceViewID>
+            <TableID>dbo_DimDate</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+    <MeasureGroup>
+      <ID>Fact Sales Quota</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="b078689e-b038-4558-b354-1d7cdd120949">
+          <ID>Fact Sales Quota</ID>
+          <Name>Fact Sales Quota</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="8991b690-e553-4b59-be51-47165cec671c">
+            <DataSourceViewID>MSSQLDEVELOPER_AdventureWorksDW2012_Data</DataSourceViewID>
+            <TableID>dbo_FactSalesQuota</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+  </MeasureGroups>
+</Cube>

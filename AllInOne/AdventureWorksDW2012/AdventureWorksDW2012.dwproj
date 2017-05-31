@@ -37,6 +37,36 @@
         </ProjectItem>
       </Dependencies>
     </ProjectItem>
+    <ProjectItem>
+      <Name>MSSQLDEVELOPER_AdventureWorksDW2012_Data 1.cube</Name>
+      <FullPath>MSSQLDEVELOPER_AdventureWorksDW2012_Data 1.cube</FullPath>
+      <Dependencies>
+        <ProjectItem>
+          <Name>MSSQLDEVELOPER_AdventureWorksDW2012_Data 1.partitions</Name>
+          <FullPath>MSSQLDEVELOPER_AdventureWorksDW2012_Data 1.partitions</FullPath>
+        </ProjectItem>
+      </Dependencies>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>MSSQLDEVELOPER_AdventureWorksDW2012_Data 2.cube</Name>
+      <FullPath>MSSQLDEVELOPER_AdventureWorksDW2012_Data 2.cube</FullPath>
+      <Dependencies>
+        <ProjectItem>
+          <Name>MSSQLDEVELOPER_AdventureWorksDW2012_Data 2.partitions</Name>
+          <FullPath>MSSQLDEVELOPER_AdventureWorksDW2012_Data 2.partitions</FullPath>
+        </ProjectItem>
+      </Dependencies>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>MSSQLDEVELOPER_AdventureWorksDW2012_Data 3.cube</Name>
+      <FullPath>MSSQLDEVELOPER_AdventureWorksDW2012_Data 3.cube</FullPath>
+      <Dependencies>
+        <ProjectItem>
+          <Name>MSSQLDEVELOPER_AdventureWorksDW2012_Data 3.partitions</Name>
+          <FullPath>MSSQLDEVELOPER_AdventureWorksDW2012_Data 3.partitions</FullPath>
+        </ProjectItem>
+      </Dependencies>
+    </ProjectItem>
   </Cubes>
   <Dimensions>
     <ProjectItem>
@@ -74,6 +104,54 @@
     <ProjectItem>
       <Name>Dim Date 1.dim</Name>
       <FullPath>Dim Date 1.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Dim Product Category.dim</Name>
+      <FullPath>Dim Product Category.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Dim Product Subcategory.dim</Name>
+      <FullPath>Dim Product Subcategory.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Dim Product Category 1.dim</Name>
+      <FullPath>Dim Product Category 1.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Dim Customer.dim</Name>
+      <FullPath>Dim Customer.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Dim Sales Territory.dim</Name>
+      <FullPath>Dim Sales Territory.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Dim Customer 1.dim</Name>
+      <FullPath>Dim Customer 1.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Dim Product Category 2.dim</Name>
+      <FullPath>Dim Product Category 2.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Dim Date 2.dim</Name>
+      <FullPath>Dim Date 2.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Dim Date 3.dim</Name>
+      <FullPath>Dim Date 3.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Dim Product Category 3.dim</Name>
+      <FullPath>Dim Product Category 3.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Dim Date 4.dim</Name>
+      <FullPath>Dim Date 4.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Dim Product Category 4.dim</Name>
+      <FullPath>Dim Product Category 4.dim</FullPath>
     </ProjectItem>
   </Dimensions>
   <DataSources>
