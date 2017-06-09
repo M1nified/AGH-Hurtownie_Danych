@@ -26,16 +26,28 @@
       <FullPath>Report3.rdl</FullPath>
     </ProjectItem>
     <ProjectItem>
-      <Name>SalesByReseller.rdl</Name>
-      <FullPath>SalesByReseller.rdl</FullPath>
-    </ProjectItem>
-    <ProjectItem>
       <Name>Report4.rdl</Name>
       <FullPath>Report4.rdl</FullPath>
     </ProjectItem>
     <ProjectItem>
       <Name>Report5.rdl</Name>
       <FullPath>Report5.rdl</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>SalesByReseller.rdl</Name>
+      <FullPath>SalesByReseller.rdl</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Cali Queens - F vs M.rdl</Name>
+      <FullPath>Cali Queens - F vs M.rdl</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>F vs M - lata i kraje.rdl</Name>
+      <FullPath>F vs M - lata i kraje.rdl</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Kategorie dochod.rdl</Name>
+      <FullPath>Kategorie dochod.rdl</FullPath>
     </ProjectItem>
   </Reports>
   <Configurations>

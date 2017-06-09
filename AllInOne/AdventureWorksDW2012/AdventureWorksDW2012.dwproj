@@ -67,6 +67,26 @@
         </ProjectItem>
       </Dependencies>
     </ProjectItem>
+    <ProjectItem>
+      <Name>MSSQLDEVELOPER_AdventureWorksDW2012_Data 4 LAB5.cube</Name>
+      <FullPath>MSSQLDEVELOPER_AdventureWorksDW2012_Data 4 LAB5.cube</FullPath>
+      <Dependencies>
+        <ProjectItem>
+          <Name>MSSQLDEVELOPER_AdventureWorksDW2012_Data 4 LAB5.partitions</Name>
+          <FullPath>MSSQLDEVELOPER_AdventureWorksDW2012_Data 4 LAB5.partitions</FullPath>
+        </ProjectItem>
+      </Dependencies>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>MSSQLDEVELOPER_AdventureWorksDW2012_Data 4 LAB5 2.cube</Name>
+      <FullPath>MSSQLDEVELOPER_AdventureWorksDW2012_Data 4 LAB5 2.cube</FullPath>
+      <Dependencies>
+        <ProjectItem>
+          <Name>MSSQLDEVELOPER_AdventureWorksDW2012_Data 4 LAB5 2.partitions</Name>
+          <FullPath>MSSQLDEVELOPER_AdventureWorksDW2012_Data 4 LAB5 2.partitions</FullPath>
+        </ProjectItem>
+      </Dependencies>
+    </ProjectItem>
   </Cubes>
   <Dimensions>
     <ProjectItem>
@@ -152,6 +172,14 @@
     <ProjectItem>
       <Name>Dim Product Category 4.dim</Name>
       <FullPath>Dim Product Category 4.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Fact Reseller Sales 1 LAB5.dim</Name>
+      <FullPath>Fact Reseller Sales 1 LAB5.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Fact Internet Sales LAB5.dim</Name>
+      <FullPath>Fact Internet Sales LAB5.dim</FullPath>
     </ProjectItem>
   </Dimensions>
   <DataSources>
